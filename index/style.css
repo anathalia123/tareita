@@ -1,0 +1,36 @@
+body {
+    background-color: #ffe8e8;
+    font-family: Arial, sans-serif;
+}
+header, footer {
+    background-color: #ffd6d6;
+    padding: 1em;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+main {
+    display: flex;
+}
+article {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #634040;
+    flex: 1;
+}
+aside {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #331b1b;
+}
+.author {
+    font-size: 0.9em;
+    color: #000000;
+}
